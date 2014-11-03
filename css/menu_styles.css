@@ -77,15 +77,25 @@ html, body {
 	body {
 		font-size: 22px;
 	}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+		background: transparent;
+		color: #EEEEEE;
+	}
+	.nav.navbar-nav > li > a {
+		border-bottom: #416192 1px solid;
+	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 		color: #EEEEEE;
 		font-size: 22px;
-		margin-top: -3px;
+		margin-top: 26px;
 		margin-left: -5px;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
 		color: #EEEEEE;
 		background-color: transparent;
+	}
+	.nav.navbar-nav > .dropdown > a {
+		border: none;
 	}
 	.navbar-nav .dropdown-menu {
 		display: block;
@@ -99,7 +109,7 @@ html, body {
 		box-shadow: none;
 	}
 	.navbar-nav .dropdown-menu > li > a {
-		margin-top: -10px;
+		margin-top: 20px;
 		font-size: 22px;
 	}
 	.navbar-nav .dropdown-menu > li > a:hover {
@@ -110,5 +120,6 @@ html, body {
 		display: block;
 		background-color: #416192;
 		height: 1px;
+		margin-left: -10px;
 	}
 }
