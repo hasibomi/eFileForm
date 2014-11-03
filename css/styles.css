@@ -154,15 +154,6 @@ html,body {
 	background-color: #b0c4de;
 }
 
-ul {
-	list-style-type: none;
-}
-
-li {
-	text-overflow: ellipsis;
-	height: 20px;
-}
-
 .folder 
 {
 	padding: 1px;

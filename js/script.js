@@ -1,33 +1,6 @@
 $(document).ready(
 		function() {
 
-
-			/**
-		      * Collapsible navigation bar
-		      */
-		     $("#collapse_button").click(function() {
-		     	var collapse_height = $("#collapsible_area").height();
-
-		     	if (collapse_height == 0) {
-		     		$("#collapsible_area").height((100 * 100) / 100 + "%");
-		     	} else {
-		     		$("#collapsible_area").height(0);
-		     	}
-		     });
-
-		     $("#collapse_text").click(function() {
-		     	var collapse_height = $("#collapsible_area").height();
-
-		     	if (collapse_height == 0) {
-		     		$("#collapsible_area").height((100 * 100) / 100 + "%");
-		     	} else {
-		     		$("#collapsible_area").height(0);
-		     	}
-		     });
-
-
-
-
 			//var treeview = $('.treeview').kendoTreeView();
 			(function($) {
 				jQuery.expr[':'].Contains = function(a, i, m) {

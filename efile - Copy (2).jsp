@@ -212,9 +212,7 @@ Date      Name      Modifications
 								style="display: none" multiple />
 							<li id='saveaction'><a id='downloadanchor' href="#" download>Save</a></li>
 							<li id='printaction'><a href="#">Print</a></li>
-							<li class="divider"></li>
-						</ul>
-					</li>
+						</ul></li>
 	<%          }
 	            if (bFormsMenu) {
 	%>
