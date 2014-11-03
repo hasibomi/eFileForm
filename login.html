@@ -1,0 +1,27 @@
+<html>
+<head>
+<script type="text/javascript" src="js/webservice.js"></script>
+<script type="text/javascript" src="js/login.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.0.js"></script>
+<SCRIPT LANGUAGE="javascript">
+	$(document).ready(function() {
+		sessionStorage.clear();
+	});
+	function loginuser() {
+		localStorage.removeItem("isLoggedIn");
+		var u = document.getElementById("username").value.trim();
+		var p = document.getElementById("password").value.trim();
+		authUser(u, p, 'efile.jsp');
+
+	}
+</SCRIPT>
+</head>
+<body>
+	Username:
+	<INPUT TYPE="text" NAME="username" id="username">
+	<br> Password:
+	<INPUT TYPE="password" NAME="password" id="password">
+	<br>
+	<INPUT TYPE="submit" VALUE="Login" onClick="loginuser()">
+</body>
+</html>

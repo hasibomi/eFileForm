@@ -1,0 +1,19 @@
+#top-pane {
+	display:block;
+	width: 100%;
+	height: 50%;
+}
+
+#bottom-pane {
+	display:block;
+	width: 100%;
+	height: 50%;
+}
+
+#filecontent {
+	display:block;
+}
+
+.backarrow {
+	display: none;
+}

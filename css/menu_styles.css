@@ -1,0 +1,91 @@
+html, body {
+	height: 100%;
+	padding-top: 26px;
+	overflow: hidden;
+	font-family: sans-serif;
+}
+.navbar-default {
+	background-color: #1d4076;
+	border: #1d4076 1px solid;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #3c7bc8;
+}
+.navbar-default .navbar-brand {
+	color: #EEEEEE;
+}
+.navbar-default .navbar-brand:hover {
+	color: #EEEEEE;
+}
+.nav.navbar-nav > li > a {
+	color: #EEEEEE;
+}
+.nav.navbar-nav > li > a:hover {
+	color: #EEEEEE;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+	background: #2f61a6;
+	color: #EEEEEE;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #EEEEEE;
+	background-color: transparent;
+}
+.navbar-nav>li>.dropdown-menu {
+	margin-top: 0;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	background-color: #1d4076;
+}
+.dropdown-menu>li>a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #EEEEEE;
+	background-color: #1d4076;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.navbar-default .navbar-toggle {
+	border-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #EEEEEE;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #3c7bc8;
+}
+.content {
+	border-left: #606060 15px solid;
+	border-right: #606060 15px solid;
+	border-bottom: #606060 15px solid;
+}
+
+.btn-default {
+	background: #6f6f6f;
+	border: #6f6f6f 1px solid;
+	color: #EEEEEE;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #EEEEEE;
+		border-bottom: #416192 1px solid;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+		color: #EEEEEE;
+		background-color: transparent;
+	}
+	.navbar-nav .open .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		box-shadow: none;
+	}
+}
+
